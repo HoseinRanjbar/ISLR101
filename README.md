@@ -24,7 +24,7 @@ and skeleton-based frameworks as baseline models, thoroughly training and evalua
 on ISLR101 to demonstrate their effectiveness.
 
 
-<img src="https://github.com/user-attachments/assets/a919d4c1-b0c2-4fac-9b94-3cbbf26343f8" alt="1" height="350">
+<img src="https://github.com/user-attachments/assets/a919d4c1-b0c2-4fac-9b94-3cbbf26343f8" alt="1" height="300">
 
 
 This repository provides a PyTorch-based implementation of **Video-based Emotion Recognition**( MobileNet-V2 + Local Transformer). 
