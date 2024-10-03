@@ -60,19 +60,19 @@ pip install -r requirements.txt
    
 To test the model on the ISLR101 dataset, use the following command:
 
-ttr configuration:
+- ttr configuration:
 
 ```bash
 ./scripts/test_ttr.sh
 ```
 
-str configuration:
+- str configuration:
 
 ```bash
 ./scripts/test_str.sh
 ```
 
-sttr1s configuration:
+- sttr1s configuration:
 
 ```bash
 ./scripts/test_sttr1s.sh
@@ -82,19 +82,19 @@ sttr1s configuration:
 
 To train the model on the ISLR101 dataset, use the following command:
 
-ttr configuration:
+- ttr configuration:
 
 ```bash
 ./scripts/train_ttr.sh
 ```
 
-str configuration:
+- str configuration:
 
 ```bash
 ./scripts/train_str.sh
 ```
 
-sttr1s configuration:
+- sttr1s configuration:
 
 ```bash
 ./scripts/train_sttr1s.sh
