@@ -1,0 +1,14 @@
+ignite
+networkx
+numpy
+scipy
+scikit-learn
+tensorboardX
+tensorflow
+torch
+torchvision
+seaborn
+pandas
+matplotlib
+pyyaml
+
