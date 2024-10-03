@@ -1,3 +1,4 @@
+weights: ./checkpoints/str.pt
 
 # feeder
 feeder: st_gcn.feeder.Feeder_islr
@@ -5,13 +6,13 @@ train_feeder_args:
   random_choose: False
   random_move: False
   window_size: 112
-  data_path: /home/hranjb/data/islr101_train.npy
-  label_path: /home/hranjb/data/islr101_train_label.npy
-  name_path: /home/hranjb/data/islr101_train_name.npy
+  data_path: ./data/islr101_train.npy
+  label_path: ./data/islr101_train_label.npy
+  name_path: ./data/islr101_train_name.npy
 test_feeder_args:
-  data_path: /home/hranjb/data/islr101_test.npy
-  label_path: /home/hranjb/data/islr101_test_label.npy
-  name_path: /home/hranjb/data/islr101_test_name.npy
+  data_path: ./data/islr101_test.npy
+  label_path: ./data/islr101_test_label.npy
+  name_path: ./data/islr101_test_name.npy
 
 # model
 model: st_gcn.net.ST_GCN
@@ -69,5 +70,3 @@ batch_size: 32
 test_batch_size: 8
 num_epoch: 120
 nesterov: True
-
-weights: /home/hranjb/data/ST-TR/experiments/exp_str/epoch76_model.pt
