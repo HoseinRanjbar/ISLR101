@@ -23,7 +23,8 @@ along with pose information extracted using OpenPose. We establish visual appear
 and skeleton-based frameworks as baseline models, thoroughly training and evaluating them
 on ISLR101 to demonstrate their effectiveness.
 
-![1](https://github.com/user-attachments/assets/a919d4c1-b0c2-4fac-9b94-3cbbf26343f8)
+
+<img src="https://github.com/user-attachments/assets/a919d4c1-b0c2-4fac-9b94-3cbbf26343f8" alt="1" height="100">
 
 
 This repository provides a PyTorch-based implementation of **Video-based Emotion Recognition**( MobileNet-V2 + Local Transformer). 
