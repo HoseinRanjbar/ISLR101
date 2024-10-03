@@ -12,6 +12,6 @@
 module load gpu
 module load cuda
 module load python/3.12
-source /home/hranjb/data/ST-TR/env/bin/activate
+source ./env/bin/activate
 
-python code/main.py --config /home/hranjb/data/ST-TR/code/config/st_gcn/islr/train_sttr.yaml --work-dir /home/hranjb/data/ST-TR/experiments/exp_sttr_lr0.00001 --phase 'train'
+python ./main.py --config ./config/train_sttr1s.yaml --work-dir ./experiments --phase 'train'
