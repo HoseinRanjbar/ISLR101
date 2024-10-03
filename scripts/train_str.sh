@@ -14,4 +14,4 @@ module load cuda
 module load python/3.12
 source ./env/bin/activate
 
-python ./main.py --config ./config/st_gcn/islr/train_str.yaml --work-dir ./experiments --phase 'train'
+python ./main.py --config ./config/train_str.yaml --work-dir ./experiments --phase 'train'
