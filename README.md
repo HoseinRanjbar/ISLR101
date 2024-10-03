@@ -31,14 +31,14 @@ This repository provides a PyTorch-based implementation of **Skeleton-based sign
 
 ## Instalation
 
-1. Clone this repository
+### 1. Clone this repository
 
 ```bash
 git clone https://github.com/HoseinRanjbar/ISLR101.git
 cd ISLR101
 ```
 
-2. Download ISLR101 pose data
+### 2. Download ISLR101 pose data
 
 ```bash
 mkdir data
@@ -48,7 +48,7 @@ wget https://drive.google.com/uc?export=download&id=1Q1Y1noTdG0pJSLecLqZnvt_fnNb
 cd ..
 ```
 
-3. Install dependent packages
+### 3. Install dependent packages
    
 ```bash
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Test
+### 1. Test
    
 To test the model on the ISLR101 dataset, use the following command:
 
@@ -78,7 +78,7 @@ sttr1s configuration:
 ./scripts/test_sttr1s.sh
 ```
 
-2. Training
+### 2. Training
 
 To train the model on the ISLR101 dataset, use the following command:
 
