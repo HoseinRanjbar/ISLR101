@@ -28,3 +28,74 @@ on ISLR101 to demonstrate their effectiveness.
 </div>
 
 This repository provides a PyTorch-based implementation of **Skeleton-based sign language recognition**. 
+
+## Instalation
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/HoseinRanjbar/ISLR101.git
+cd ISLR101
+```
+
+2. Download ISLR101 pose data
+
+```bash
+mkdir data
+cd data
+wget https://drive.google.com/uc?export=download&id=1mqWgZJ7mJZEDyuK5lixC4g4ZUKa1ZKme
+wget https://drive.google.com/uc?export=download&id=1Q1Y1noTdG0pJSLecLqZnvt_fnNbs306I
+cd ..
+```
+
+3. Install dependent packages
+   
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Test
+   
+To test the model on the ISLR101 dataset, use the following command:
+
+ttr configuration:
+
+```bash
+./scripts/test_ttr.sh
+```
+
+str configuration:
+
+```bash
+./scripts/test_str.sh
+```
+
+sttr1s configuration:
+
+```bash
+./scripts/test_sttr1s.sh
+```
+
+2. Training
+
+To train the model on the ISLR101 dataset, use the following command:
+
+ttr configuration:
+
+```bash
+./scripts/train_ttr.sh
+```
+
+str configuration:
+
+```bash
+./scripts/train_str.sh
+```
+
+sttr1s configuration:
+
+```bash
+./scripts/train_sttr1s.sh
+```
